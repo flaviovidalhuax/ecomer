@@ -12,9 +12,11 @@ ul {
     list-style: none;
 }
 
-a {
+.a_style {
     text-decoration: none;
     color:black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 img{
@@ -31,6 +33,13 @@ svg{
     display: block;
    
 }
+.leter{
+    color:#42855B;
+    font-size: 2rem;
+    font-style: oblique;
+    gap: 1rem;
+    
+}
 .title_store{
 
     height: 200px;
@@ -39,9 +48,8 @@ svg{
     padding: 1rem;
     gap: 1rem;
 border-radius: 1rem ;
-    background-image: url(/img/honey/abeja_inside.webp);
-    background-size: cover;
-    
+    background-image: url(./img/honey/abeja_inside.webp);
+    background-size: cover;  
 }
 .contaner_title{
     margin-bottom: 2rem;
